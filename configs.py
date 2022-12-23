@@ -7,13 +7,13 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 12345))
-    API_HASH = os.getenv("API_HASH", "")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    API_ID = int(os.getenv("API_ID", 6448897))
+    API_HASH = os.getenv("API_HASH", "7ea70c1662d1010f591529e8224d2401")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5572033528:AAGk0SYSwbuwPV3IcukH_GptYF326-oAhY8")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BABrGqZxU_MvyxAau4vIOvwKsHwnW6shh_Fp8AspNSFhpY-3lOo6ivzoI_2fi1SUJh78bL0ZtesrO1pykn2yfgYvQuS0FUfDUHP0v5W5cjC48-nf29rLpwzF01cS7Afn5xiHb-eEJv4IFzc2ODxXl_eOFwJSAYMdy3fQDjIcpev_gC-0Im-Q_yROhiHzEB0QyiMN8QXjJaKOYMszKah7U8RKOc6T804CVAu03P7XcoW0fHOhY2PDmZvMEnwykJq5tE1Qhdhw6VFILZf-3tMEzItu07lIgO5D7xPuDyRMQfyfQHW60iOeFZNUK4-acAU8lMli2b3CKW88SF4qWni07ARBAAAAAVsGtM4A")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -100))
-    BOT_USERNAME = os.getenv("BOT_USERNAME")
+    BOT_USERNAME = os.getenv("@Mdiskmemovielinksearchbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
